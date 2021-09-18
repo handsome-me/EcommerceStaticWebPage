@@ -58,6 +58,9 @@ nav ul li a {
   margin-right: 24px;
   text-decoration: none;
 }
+header nav ul li a:hover {
+  color: blue;
+}
 
 ul li:last-of-type a {
   margin-right: 0px;
@@ -128,6 +131,12 @@ ul li:last-of-type a {
   letter-spacing: 0.4px;
   margin: 10px;
   text-transform: uppercase;
+  cursor: pointer;
+}
+.hero-content button:hover {
+  color: blue;
+  background-color: white;
+  border: 1px solid blue;
 }
 section.best-sellers {
   padding-top: 80px;
@@ -165,6 +174,7 @@ section.best-sellers .product-slider .product {
   margin: 0 8px;
   padding: 40px;
   position: relative;
+  cursor: pointer;
 }
 
 section.best-sellers .product-slider .product .product-info {
@@ -195,6 +205,11 @@ section.best-sellers .product-slider .product .product-info .price {
   letter-spacing: 0.7px;
   line-height: 30px;
   text-align: center;
+}
+section.best-sellers .product-slider .product:hover .product-info button {
+  background-color: blue;
+  color: white;
+  border: 1px solid blue;
 }
 section.best-sellers
   .product-slider
@@ -266,6 +281,7 @@ section.newsletter form input {
   max-width: 80%;
   border-radius: 170px 0 0 170px;
   box-sizing: border-box;
+  border-right: none;
   border: 1px solid #3e3e3e;
   font-size: 14px;
   padding-left: 22px;
@@ -279,6 +295,12 @@ section.newsletter form button {
   border-radius: 0 60px 60px 0;
   background-color: rgb(50, 50, 224);
   text-transform: uppercase;
+  cursor: pointer;
+}
+section.newsletter form button:hover {
+  color: blue;
+  border: 1px solid #3e3e3e;
+  background-color: white;
 }
 footer .bottom-nav {
   padding: 60px 0;
@@ -329,4 +351,10 @@ footer .copyright-text {
   justify-content: center;
   align-items: center;
   background-color: #2b2b2b;
+}
+
+.addtobag {
+  height: 50px;
+  width: 219.5px;
+  border-radius: 220px;
 }
