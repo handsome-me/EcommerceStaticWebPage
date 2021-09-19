@@ -5,6 +5,10 @@ body {
 header .logo {
   display: inline-block;
 }
+header .logo a {
+  text-decoration: none;
+  color: black;
+}
 header {
   background-color: #fff;
   height: 80px;
